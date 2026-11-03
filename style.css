@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background: #f4e96b;
+    color: #111111;
+    line-height: 1.7;
+}
+
+#header {
+    background: #111111;
+    color: #f4e96b;
+    padding: 30px 40px 24px;
+    border-bottom: 3px solid #f4e96b;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 8px;
+    font-size: 2.4em;
+    letter-spacing: 0.03em;
+}
+
+#header p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #f8f4ca;
+}
+
+.contact-links {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    color: #111111;
+    background: #f4e96b;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.82em;
+    font-weight: 700;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 40px 40px;
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 16px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.cat-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #111111;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(17, 17, 17, 0.12);
+}
+
+.heading {
+    margin: 24px 0 12px;
+    font-size: 1.5em;
+    border-bottom: 2px solid #111111;
+    padding-bottom: 6px;
+    display: inline-block;
+}
+
+.experience-block {
+    margin-top: 18px;
+}
+
+.job-title {
+    margin: 6px 0 12px;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+}
+
+p,
+li {
+    font-size: 0.98em;
+}
+
+ul {
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+b {
+    color: #111111;
+}
+
+@media (max-width: 600px) {
+    #header {
+        padding: 22px 20px 18px;
+    }
+
+    .content {
+        padding: 18px 20px 28px;
+    }
+
+    .about-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cat-image {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.9em;
+    }
+}
